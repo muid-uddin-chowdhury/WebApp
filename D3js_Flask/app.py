@@ -35,5 +35,5 @@ if __name__ == '__main__':
 
 @app.route("/about")
 def about():
-    return rendertemplate("about.html")
+    return render_template("about.html")
 
